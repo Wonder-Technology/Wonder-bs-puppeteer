@@ -1,0 +1,19 @@
+{
+  "name": "wonder-bs-puppeteer",
+  "version": "0.1.0",
+  "authors": "Wonder",
+  "description": "",
+  "homepage": "https://github.com/Wonder-Technology/Wonder-bs-puppeteer",
+  "license": "MIT",
+  "main": "",
+  "scripts": {
+    "watch": "bsb -clean-world -make-world -w",
+    "build": "bsb -clean-world -make-world"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "bs-platform": "2.1.0"
+  }
+}
