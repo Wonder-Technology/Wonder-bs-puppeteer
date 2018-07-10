@@ -12,7 +12,7 @@ let launchHeadlessBrowser = () =>
       "timeout": Js.Nullable.null,
       "dumpio": Js.Nullable.null,
       "userDataDir": Js.Nullable.null,
-      "headless": Js.Nullable.return(Js.false_)
+      "headless": Js.Nullable.return(false)
     },
     ()
   );
